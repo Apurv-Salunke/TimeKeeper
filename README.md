@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TimeKeeper
 
-## Getting Started
+**TimeKeeper** is a task tracking and accountability application designed to help users manage their time effectively. It features a timer for tracking task durations, daily logs for recording activities, and a dashboard to view task performance.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Task Timer**: Track time spent on tasks.
+- **Daily Logs**: Record activities and reflections.
+- **Dashboard**: Overview of task performance and statistics.
+- **Authentication**: Secure sign-in and sign-up with Clerk.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To get started with TimeKeeper, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Apurv-Salunke/TimeKeeper
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd TimeKeeper
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Set up environment variables:
+    - Create a `.env.local` file in the root directory.
+    - Add your Clerk API keys and other environment variables.
 
-## Learn More
+5. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Open your browser and go to `http://localhost:3000`.
+- Sign in or register to access the application.
+- Use the task timer, log your activities, and view your dashboard.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you have suggestions or find bugs, please open an issue or submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes.
+4. Submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
