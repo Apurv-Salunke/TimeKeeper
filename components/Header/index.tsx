@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { Logo } from "./Logo";
+import { Profile } from "../Profile";
 
 export function Header() {
     return (
@@ -23,10 +23,8 @@ export function Header() {
                 <Link href="#" className="hover:text-[#58a6ff]" prefetch={false}>
                     Dashboard
                 </Link>
-                <div className="flex items-center gap-2">
-                    <Image src="/placeholder.svg" alt="User Avatar" width={32} height={32} className="rounded-full" />
-                    <span>John Doe</span>
-                </div>
+                {/* Profile */}
+                <Profile />
             </div>
         </header>
     );
