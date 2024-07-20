@@ -16,6 +16,7 @@ import { Button } from "@/components/ui/button"
 import { CurrentTaskCard } from "./CurrentTaskCard"
 import { DailyLogCard } from "./DailyLogCard";
 import { ProductivityStatsCard } from "./ProductivityStatsCard";
+import { UpcomingTasksCard } from "./UpcomingTasksCard";
 
 export function Tasks() {
 
@@ -70,53 +71,8 @@ export function Tasks() {
           <ProductivityStatsCard />
 
           {/* Upcoming Tasks */}
-          <Card>
-            <CardHeader>
-              <CardTitle>Upcoming Tasks</CardTitle>
-            </CardHeader>
-            <CardContent className="flex flex-col gap-4">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="bg-[#0a3069] rounded-full w-10 h-10 flex items-center justify-center text-2xl">
-                    📝
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold">Write blog post</h3>
-                    <p className="text-sm text-[#8b949e]">Due tomorrow</p>
-                  </div>
-                </div>
-                <Button variant="secondary" size="sm">
-                  Start
-                </Button>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="bg-[#0a3069] rounded-full w-10 h-10 flex items-center justify-center text-2xl">🛠️</div>
-                  <div>
-                    <h3 className="text-lg font-bold">Fix bug in app</h3>
-                    <p className="text-sm text-[#8b949e]">Due Friday</p>
-                  </div>
-                </div>
-                <Button variant="secondary" size="sm">
-                  Start
-                </Button>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="bg-[#0a3069] rounded-full w-10 h-10 flex items-center justify-center text-2xl">
-                    📚
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold">Research new tech</h3>
-                    <p className="text-sm text-[#8b949e]">Due next week</p>
-                  </div>
-                </div>
-                <Button variant="secondary" size="sm">
-                  Start
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+          <UpcomingTasksCard />
+          
         </div>
       </main>
       <footer className="bg-[#161b22] py-4 px-6 text-center text-[#8b949e]">
