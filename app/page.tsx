@@ -1,4 +1,4 @@
-import { Tasks } from "@/components/tasks";
+import { Tasks } from "@/components/TasksScreen";
 // import Image from "next/image";
 
 import { Dashboard } from "@/components/dashboard";
