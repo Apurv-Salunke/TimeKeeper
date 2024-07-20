@@ -8,7 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 export function Profile() {
     return (
         <div className="flex items-center gap-2">
-            <Image src="/placeholder.svg" alt="User Avatar" width={32} height={32} className="rounded-full" />
+            {/* <Image src="/placeholder.svg" alt="User Avatar" width={32} height={32} className="rounded-full" /> */}
             <span>
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>

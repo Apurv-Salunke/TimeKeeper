@@ -20,9 +20,12 @@ export function Header() {
                 <Link href="#" className="hover:text-[#58a6ff]" prefetch={false}>
                     Logs
                 </Link>
-                <Link href="#" className="hover:text-[#58a6ff]" prefetch={false}>
+
+                {/* Todo */}
+                {/* <Link href="#" className="hover:text-[#58a6ff]" prefetch={false}>
                     Dashboard
-                </Link>
+                </Link> */}
+                
                 {/* Profile */}
                 <Profile />
             </div>
