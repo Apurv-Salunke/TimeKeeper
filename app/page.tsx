@@ -1,4 +1,4 @@
-// import { Tasks } from "@/components/tasks";
+import { Tasks } from "@/components/TasksScreen";
 // import Image from "next/image";
 
 import { Dashboard } from "@/components/dashboard";
@@ -6,7 +6,7 @@ import { Dashboard } from "@/components/dashboard";
 export default function Home() {
   return (
     <main>
-      <Dashboard/>
+      <Tasks/>
     </main>
   );
 }
