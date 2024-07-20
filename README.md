@@ -9,7 +9,13 @@
 - **Dashboard**: Overview of task performance and statistics.
 - **Authentication**: Secure sign-in and sign-up with Clerk.
 
-## Installation
+## Status
+
+🚧 **Work in Progress** 🚧
+
+This project is still under development. Features are being added, and bugs are being fixed. Stay tuned for updates!
+
+
 
 To get started with TimeKeeper, follow these steps:
 
