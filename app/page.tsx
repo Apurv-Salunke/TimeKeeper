@@ -1,10 +1,12 @@
-import { Tasks } from "@/components/tasks";
-import Image from "next/image";
+// import { Tasks } from "@/components/tasks";
+// import Image from "next/image";
+
+import { Dashboard } from "@/components/dashboard";
 
 export default function Home() {
   return (
     <main>
-      <Tasks/>
+      <Dashboard/>
     </main>
   );
 }

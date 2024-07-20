@@ -215,7 +215,7 @@ export function Tasks() {
   )
 }
 
-function RocketIcon(props) {
+function RocketIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -238,7 +238,7 @@ function RocketIcon(props) {
 }
 
 
-function XIcon(props) {
+function XIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
