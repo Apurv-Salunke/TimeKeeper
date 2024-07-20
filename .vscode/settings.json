@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "local-docker",
+            "username": "loki",
+            "password": "loki",
+            "database": "loki",
+            "connectString": "postgresql://loki:loki@localhost:5432/mydatabase"
+        }
+    ]
+}
