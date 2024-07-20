@@ -15,6 +15,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { CurrentTaskCard } from "./CurrentTaskCard"
 import { DailyLogCard } from "./DailyLogCard";
+import { ProductivityStatsCard } from "./ProductivityStatsCard";
 
 export function Tasks() {
 
@@ -66,53 +67,9 @@ export function Tasks() {
           <DailyLogCard />
 
           {/* Productivity Card */}
-          <Card>
-            <CardHeader>
-              <CardTitle>Productivity Stats</CardTitle>
-            </CardHeader>
-            <CardContent className="flex flex-col gap-4">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="bg-[#0a3069] rounded-full w-10 h-10 flex items-center justify-center text-2xl">
-                    📈
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold">Tasks Completed</h3>
-                    <p className="text-sm text-[#8b949e]">12 this week</p>
-                  </div>
-                </div>
-                <Button variant="secondary" size="sm">
-                  View
-                </Button>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="bg-[#0a3069] rounded-full w-10 h-10 flex items-center justify-center text-2xl">⏱️</div>
-                  <div>
-                    <h3 className="text-lg font-bold">Total Time Tracked</h3>
-                    <p className="text-sm text-[#8b949e]">32 hours this week</p>
-                  </div>
-                </div>
-                <Button variant="secondary" size="sm">
-                  View
-                </Button>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="bg-[#0a3069] rounded-full w-10 h-10 flex items-center justify-center text-2xl">
-                    🔥
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold">Streak</h3>
-                    <p className="text-sm text-[#8b949e]">5 days</p>
-                  </div>
-                </div>
-                <Button variant="secondary" size="sm">
-                  View
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+          <ProductivityStatsCard />
+
+          {/* Upcoming Tasks */}
           <Card>
             <CardHeader>
               <CardTitle>Upcoming Tasks</CardTitle>
